@@ -15,6 +15,13 @@ function dafina_script_enqueue()
     "1.0.0",
     "all"
   );
+  wp_enqueue_style(
+    "tailwind",
+    get_template_directory_uri() . "/assets/css/dist/output.css",
+    [],
+    "3.0.24",
+    "all"
+  );
 
   //js
   wp_enqueue_script(

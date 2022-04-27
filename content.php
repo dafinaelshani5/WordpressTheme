@@ -1,4 +1,4 @@
-      <h3><?php the_title(); ?></h3>
+      <h3 class="text-3xl font-bold underline"><?php the_title(); ?></h3>
           <div class="thumbnail-img"><?php the_post_thumbnail(
             "thumbnail"
           ); ?></div>

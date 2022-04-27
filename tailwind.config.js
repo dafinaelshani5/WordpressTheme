@@ -1,15 +1,6 @@
 module.exports = {
-  mode: "jit", //ADD THIS LINE
-  purge: [
-    //CONFIGURE CORRECTLY
-    "**/*.php",
-    "*.php",
-  ],
-  darkMode: false,
+  content: ["./**/*.{php,js}", "./**/*.{php,js}"],
   theme: {
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],

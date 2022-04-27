@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="content">
-<div class="not-side">
+<div class="text-yellow-400">
 <?php if (have_posts()):
   while (have_posts()):
     the_post(); ?>

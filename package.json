@@ -1,15 +1,5 @@
 {
-  "dependencies": {
-    "@prettier/plugin-php": "^0.18.4",
-    "sass": "^1.50.1"
-  },
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
-  },
-  "scripts": {
-    "css": "node-sass --output-style compressed --include-path scss assets/css/source.scss style.css",
-    "watch": "nodemon -e scss -x \"npm run css\""
   }
 }
